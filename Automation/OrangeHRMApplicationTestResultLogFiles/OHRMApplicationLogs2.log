@@ -1,0 +1,29 @@
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The expected Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  The actual Title of the OrangeHRM Application LogIN Page is :- OrangeHRM
+[main] INFO Log -  Successfully Navigated to the OrangeHRM Application LogIN Page - PASS 
+[main] INFO Log -  The Expected URL address of the OrangeHRM Application LogIN Page is :- orangehrm-4.2.0.1
+[main] INFO Log -  The Actual URL address of the OrangeHRM Application LogIN Page is :- http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log -  Successfully Navigated to the OrangeHRM Application LogIN Page - PASS 
+[main] INFO Log -  The Expected TEXT of the OrangeHRM Application LogIN page is :- LOGIN Panel
+[main] INFO Log -  Successfully Navigated to the OrangeHRM Application LogIN Page - TEXT Found - PASS 
+[main] INFO Log - pavankalyan
+[main] INFO Log - Pavan398@
+[main] INFO Log -  The expected Title of the OrangeHRM Application HOME Page is :- OrangeHRM
+[main] INFO Log -  The actual Title of the OrangeHRM Application Home Page is :- OrangeHRM
+[main] INFO Log -  Successfully Navigated to the OrangeHRM Application HOME Page - PASS 
+[main] INFO Log -  The Actual Text of the OrangeHRM Application HomePage is :- Welcome Admin
+[main] INFO Log -  Successfully Navigated to the OrangeHRM Application HOME Page - PASS 
+[main] INFO Log -  LogOut Test Successfull 

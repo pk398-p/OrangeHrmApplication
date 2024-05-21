@@ -1,0 +1,57 @@
+package reddiffmail;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class createAccount {
+
+	public static void main(String[] args) 
+	{
+		System.setProperty("webdriver.chrome.driver", "./Automation/browserfiles/chromedriver.exe");
+		ChromeDriver chromeBrowser = new ChromeDriver();
+
+		String applicationUrlAddress="https://mail.rediff.com/cgi-bin/login.cgi";
+
+		chromeBrowser.get(applicationUrlAddress);
+
+		// Expected Title should be - OrangeHRM
+		// Expected Url Address shold have - orangehrm-4.2.0.1
+
+		// Verification & Validation of UserName
+
+		/*
+		<input name="txtUsername" id="txtUsername" type="text">
+
+
+		Element Properties
+		Element Properties always contains Attributes and its Corresponding values
+
+		 < - tag
+		 input - tag name
+
+		name - attribute / Locator
+		txtUsername - value / selector
+
+		id - attribute / locator
+		txtUsername - value / selctor
+
+		type - attribute
+		text - value
+		*/
+
+		// Identification of the Element will done based on the Locator and its corresponding selector
+		// Locator and selector of the Element should be found from the properties of the element by inspecting the element
+		
+		
+		
+		
+		
+		chromeBrowser.quit();
+		
+
+	}
+
+
+	}
+
+}

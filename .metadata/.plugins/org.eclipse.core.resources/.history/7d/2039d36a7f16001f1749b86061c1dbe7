@@ -1,0 +1,41 @@
+package reddiffmail;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+public class createAccount {
+
+		
+		WebDriver driver;
+		String applicationUrlAddress="https://mail.rediff.com/cgi-bin/login.cgi";
+
+		@BeforeTest
+		public void applicationLauch()
+		{
+
+		System.setProperty("webdriver.chrome.driver", "D:\\New folder\\pk program\\Automation\\browserfiles\\chromedriver.exe");
+		//WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
+
+		driver.get(applicationUrlAddress);
+
+		driver.manage().window().maximize();
+
+		//Thread.sleep(10000);
+
+		}
+
+		@AfterTest
+		public void applicationClose()
+		{
+		driver.close();
+		}
+
+		}
+
+
+
+		
+

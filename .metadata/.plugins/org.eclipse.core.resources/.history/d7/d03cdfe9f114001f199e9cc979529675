@@ -1,0 +1,35 @@
+package StepDefination;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="OrangeHRMApplication",
+                              // name of the folder in which the feature file is created
+glue="com.StepDefination",
+// glue will connect the feature file with the WebDriver Test Script implemented with userDefined methods
+monochrome=true, // will remove the junk data from the OutPut console
+// dryRun=true // will compare the feature Scenario Steps with the Cucumber Class- and for
+        // newly added Steps of t he Scenario it create the User-Defined methods
+           // which should be implemented with the missing steps of the Scenario in
+           //  the Methods Cucumber Class
+          // * Adding this argument will not execute the Scenarios of the Feature file
+// tags="@Smoke"
+//tags="@LogInTestWithTestData"
+tags="@Sanity,@LogInTestWithSingleTestData",
+plugin = { "pretty",
+"html:target/OrangeHRMApplicationReports",
+"json:target/OrangeHRMApplicationJsonReport.json",
+"com.cucumber.listener.ExtentCucumberFormatter:target/OrangeHRMApplicationExtentReports.htm"
+}
+)
+
+
+
+
+public class TestRunner
+{
+
+}
